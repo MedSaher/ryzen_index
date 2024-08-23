@@ -1,0 +1,10 @@
+# Deny direct access to files in the img directory
+Order deny,allow
+Deny from all
+
+# Allow access if referred by your domain
+<FilesMatch ".*">
+    Order allow,deny
+    Allow from yourdomain.com
+    Deny from all
+</FilesMatch>

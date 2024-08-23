@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - RYZEN Club</title>
+    <meta name="description" content="Learn about RYZEN Club's history, mission, values, achievements, and meet our office members.">
+    <meta name="keywords" content="ENCGO, école nationale de commerce et de gestion, école nationale de commerce et de gestion oujda, oujda, encg maroc, encg parascolaire, encg ade, association des étudiants, encgo administration">
+    <!-- Bootstrap 5 CSS -->
+    <link rel="icon" href="img/logo-mark-1a.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bcolor: #262223;
+            --wcolor: #DDC6B6;
+        }
+
+        @font-face {
+            font-family: 'Semi Coder';
+            src: url('./Semi-Coder-Regular.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'VCR OSD Mono';
+            src: url('./VCR_OSD_MONO.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "VCR OSD MONO";
+            background-color: var(--bcolor);
+            color: var(--wcolor);
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            margin-bottom: 30px;
+        }
+        .navbar .active{
+            color: white;
+        }
+        .about-section {
+            padding: 50px;
+            background-color: #1e1e1e;
+        }
+
+        .about-section h2,
+        .about-section h3 {
+            color: var(--wcolor);
+        }
+
+        .about-section p {
+            font-family: "Semi Coder";
+            font-size: 1.2rem;
+        }
+
+        .member-spotlight {
+            background-color: #000000;
+            padding: 50px;
+        }
+
+        .member-category {
+            margin-bottom: 40px;
+        }
+
+        .member-card {
+            background-color: #1e1e1e;
+            color: var(--wcolor);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        .member-card img {
+            border-radius: 8px;
+        }
+
+        .member-card .card-body {
+            padding: 20px;
+        }
+
+        .member-card .btn-primary {
+            background-color: #ff5722;
+            border: none;
+        }
+
+        .member-card .btn-primary:hover {
+            background-color: #e64a19;
+        }
+
+        .footer-section {
+            padding: 40px 0;
+            color: var(--wcolor);
+        }
+
+        .btn-view {
+            background-color: #ff5722;
+            color: var(--wcolor);
+            border: none;
+        }
+
+        .btn-view:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="RYZEN Club Logo" height="50"> <!-- Replace with your logo -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Detailed Club History -->
+    <section class="about-section mt-5">
+        <div class="container">
+            <h2>About RYZEN Club</h2>
+            <p>Founded in 2024, RYZEN Club is a leading community for tech enthusiasts, dedicated to driving innovation and excellence in the tech world. Our club aims to create a platform for aspiring technologists to connect, learn, and grow.</p>
+            <p>Over the semestrs, we have hosted numerous events, workshops, and hackathons, bringing together experts and novices alike to explore the ever-evolving world of technology. Our commitment to fostering a collaborative environment has led to the successful execution of several groundbreaking projects and initiatives.</p>
+        </div>
+    </section>
+
+    <!-- Mission and Values -->
+    <section class="about-section">
+        <div class="container">
+            <h2>Mission and Values</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to empower individuals through technology by providing comprehensive learning opportunities, fostering a collaborative environment, and enabling hands-on experiences in various tech domains. We aim to equip our members with the skills and knowledge necessary to thrive in the ever-evolving tech industry.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li><strong>Innovation:</strong> We strive to push the boundaries of technology and encourage creative problem-solving.</li>
+                        <li><strong>Collaboration:</strong> We believe in the power of teamwork and collaboration to achieve common goals.</li>
+                        <li><strong>Integrity:</strong> We uphold the highest standards of ethical behavior and transparency in all our activities.</li>
+                        <li><strong>Excellence:</strong> We are committed to delivering quality and excellence in everything we do.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <!-- <section class="about-section">
+        <div class="container">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Organized and successfully executed the annual [Event Name] with over [Number] participants.</li>
+                <li>Won the [Competition Name] in [Year], showcasing our team's innovative solutions and technical skills.</li>
+                <li>Developed and launched [Project Name], a cutting-edge technology solution that has been widely recognized in the tech community.</li>
+                <li>Hosted workshops and training sessions, impacting over [Number] individuals with hands-on learning experiences.</li>
+            </ul>
+        </div>
+    </section> -->
+
+    <!-- Member Spotlight -->
+    <section class="member-spotlight">
+        <div class="container">
+            <h2>Member Spotlight</h2>
+
+            <!-- Office Committee -->
+            <div class="member-category">
+                <h3>Office Committee</h3>
+                <div class="row">
+                     <!-- Member Card -->
+            <div class="col-md-4">
+                <div class="card member-card">
+                    <img src="./img/aya.jpeg" class="card-img-top" alt="Sabaouni Aya">
+                    <div class="card-body">
+                        <h5 class="card-title">Sabaouni Aya</h5>
+                        <p class="card-text">President</p>
+                        <a href="https://instagram.com/eyaa.sb1" class="btn btn-view">View Instagram Profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Member Card -->
+            <div class="col-md-4">
+                <div class="card member-card">
+                    <img src="./img/saher.jpeg" class="card-img-top" alt="Saher Mohamed">
+                    <div class="card-body">
+                        <h5 class="card-title">Saher Mohamed</h5>
+                        <p class="card-text">Vice-President</p>
+                        <a href="https://instagram.com/m._saher" class="btn btn-view">View Instagram Profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Member Card -->
+            <div class="col-md-4">
+                <div class="card member-card">
+                    <img src="./img/younes.jpg" class="card-img-top" alt="Saidi Younes">
+                    <div class="card-body">
+                        <h5 class="card-title">Saidi Younes</h5>
+                        <p class="card-text">Secretary General and Project Manager</p>
+                        <a href="https://instagram.com/younes._.sdi" class="btn btn-view">View Instagram Profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Member Card -->
+            <div class="col-md-4">
+                <div class="card member-card">
+                    <img src="./img/ali.jpeg" class="card-img-top" alt="Oubal Abdelali">
+                    <div class="card-body">
+                        <h5 class="card-title">Oubal Abdelali</h5>
+                        <p class="card-text">Logistics Chief</p>
+                        <a href="https://instagram.com/abdel_ali.wg" class="btn btn-view">View Instagram Profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Member Card -->
+            <div class="col-md-4">
+                <div class="card member-card">
+                    <img src="./img/niama.jpeg" class="card-img-top" alt="Niama Sandal">
+                    <div class="card-body">
+                        <h5 class="card-title">Niama Sandal</h5>
+                        <p class="card-text">Human Resources Chief</p>
+                        <a href="https://instagram.com/niamasd" class="btn btn-view">View Instagram Profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Member Card -->
+            <div class="col-md-4">
+                <div class="card member-card">
+                    <img src="./img/youssef.jpeg" class="card-img-top" alt="Ramdani Yousef">
+                    <div class="card-body">
+                        <h5 class="card-title">Ramdani Yousef</h5>
+                        <p class="card-text">Treasurer</p>
+                        <a href="https://instagram.com/yussef.ramdani" class="btn btn-view">View Instagram Profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Member Card -->
+            <div class="col-md-4">
+                <div class="card member-card">
+                    <img src="./img/lahmami.jpg" class="card-img-top" alt="Lahmami Fatimaezzahrae">
+                    <div class="card-body">
+                        <h5 class="card-title">Lahmami Fatimaezzahrae</h5>
+                        <p class="card-text">Communication Chief and Social Media Manager</p>
+                        <a href="https://instagram.com/fatima_zahra_lahmami" class="btn btn-view">View Instagram Profile</a>
+                    </div>
+                </div>
+            </div>
+                    <!-- Add remaining Office Committee members similarly -->
+                </div>
+            </div>
+
+            <!-- General Club Members -->
+            <!-- <div class="member-category">
+                <h3>General Club Members</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card member-card">
+                            <img src="./img/member1.jpg" class="card-img-top" alt="Club Member">
+                            <div class="card-body">
+                                <h5 class="card-title">Member Name 1</h5>
+                                <p class="card-text">Brief description about the member's contributions and achievements.</p>
+                                <a href="#" class="btn btn-view">View Profile</a>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Repeat for all Club Members -->
+                    <!-- Add remaining Club Members similarly -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>RYZEN Club is a tech community dedicated to innovation and excellence in the tech world. We aim to inspire and support tech enthusiasts through various events, projects, and learning opportunities.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light">Home</a></li>
+                        <li><a href="about.html" class="text-light">About Us</a></li>
+                        <li><a href="projects.html" class="text-light">Projects</a></li>
+                        <li><a href="events.html" class="text-light">Events</a></li>
+                        <li><a href="blog.html" class="text-light">Blog</a></li>
+                        <li><a href="contact.html" class="text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@ryzenclub.com</p>
+                    <p>Phone: +123 456 7890</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-light me-3"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@ryzenencgo" class="text-light me-3"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/ryzenencg.o/" class="text-light"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2024 RYZEN Club. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
